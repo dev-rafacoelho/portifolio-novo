@@ -6,4 +6,3 @@ export default function NameCenter() {
         </section>
     );
 }
-A
