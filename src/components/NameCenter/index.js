@@ -19,7 +19,7 @@ export default function NameCenter() {
                         return prevItem;
                     }
                 } else {
-                    // Adicionando letras
+
                     const palavraAtual = palavras[indexPalavra];
                     if (prevItem.length < palavraAtual.length) {
                         return palavraAtual.slice(0, prevItem.length + 1);
