@@ -1,18 +1,40 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 export default function NameCenter() {
-    const [Item, setItem] = useState("Criativo");
+    const palavras = useMemo(() => ["Criativo", "Frontend", "Backend"], []); 
+    const [indexPalavra, setIndexPalavra] = useState(0);
+    const [Item, setItem] = useState(palavras[0]);
+    const [adicionando, setAdicionando] = useState(false);
 
-    async function delayLoop() {
-        while (Item != "") {
-            console.log({Item});
-            setItem(Item.slice(0,-1)); 
-            await new Promise(resolve => setTimeout(resolve, 5000));
-        }
-    }
-    
-    delayLoop();
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setItem((prevItem) => {
+                if (!adicionando) {
+                  
+                    if (prevItem.length > 0) {
+                        return prevItem.slice(0, -1);
+                    } else {
+                        setAdicionando(true);
+                        return prevItem;
+                    }
+                } else {
+                    // Adicionando letras
+                    const palavraAtual = palavras[indexPalavra];
+                    if (prevItem.length < palavraAtual.length) {
+                        return palavraAtual.slice(0, prevItem.length + 1);
+                    } else {
+                        setAdicionando(false);
+                        setIndexPalavra((prevIndex) => (prevIndex + 1) % palavras.length);
+                        return prevItem;
+                    }
+                }
+            });
+        }, 500);
+
+        return () => clearInterval(interval);
+    }, [adicionando, indexPalavra, palavras]);
+
     return (
         <section className="h-[75vh] w-full flex flex-col justify-center items-center">
             <p className="text-[7vw] font-bold">RAFAEL COELHO</p>
