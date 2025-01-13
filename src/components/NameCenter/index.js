@@ -54,8 +54,6 @@ export default function NameCenter() {
       <p className="text-[5vw] font-extralight -mt-[3vh]">
         Desenvolvedor <span className="text-red-600">{Item}</span>
       </p>
-
-      {/* Bola que segue o mouse */}
       <div
         className="w-10 h-10 bg-blue-500 rounded-full fixed pointer-events-none -z-10 left-0 top-0 transition-transform duration-1000 ease-out"
         style={{
