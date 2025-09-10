@@ -35,9 +35,12 @@ export default function NameCenter() {
 
   return (
     <section className="h-[75vh] w-full flex flex-col justify-center items-center">
-      <p className="text-[5vw] font-press-start">RAFAEL COELHO</p>
-      <p className="text-[3vw] font-press-start">
-        Desenvolvedor <span className="text-red-600">{Item}</span>
+      <p className="text-[5vw] font-press-start text-gray-900 dark:text-white">
+        RAFAEL COELHO
+      </p>
+      <p className="text-[3vw] font-press-start text-gray-700 dark:text-gray-300">
+        Desenvolvedor{" "}
+        <span className="text-red-600 dark:text-red-400">{Item}</span>
       </p>
     </section>
   );
