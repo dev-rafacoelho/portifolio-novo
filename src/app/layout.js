@@ -4,7 +4,7 @@ import "./globals.css";
 const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
-  weight: ["400", "700"], // Adicione os pesos necessários
+  weight: ["400", "700"],
 });
 
 const robotoMono = Roboto_Mono({
@@ -21,9 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} ${robotoMono.variable} antialiased`}
-      >
+      <body className={`${roboto.variable} ${robotoMono.variable} antialiased`}>
         {children}
       </body>
     </html>
