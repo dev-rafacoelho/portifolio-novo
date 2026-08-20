@@ -3,22 +3,18 @@ import { useState, useEffect } from "react";
 import { useLanguage } from "@/i18n/LanguageProvider";
 
 export default function ThemeToggle() {
-  const [isDark, setIsDark] = useState(false);
+  // Escuro é o padrão; só vira claro se a pessoa escolher.
+  const [isDark, setIsDark] = useState(true);
   const { t } = useLanguage();
 
   useEffect(() => {
-    // Verifica se há preferência salva no localStorage
     const savedTheme = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-
-    if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
-      setIsDark(true);
-      document.documentElement.classList.add("dark");
-    } else {
+    if (savedTheme === "light") {
       setIsDark(false);
       document.documentElement.classList.remove("dark");
+    } else {
+      setIsDark(true);
+      document.documentElement.classList.add("dark");
     }
   }, []);
 
