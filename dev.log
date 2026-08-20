@@ -262,3 +262,59 @@ Require stack:
  ✓ Compiled in 425ms (928 modules)
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\9.pack.gz_' -> 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\9.pack.gz'
  ✓ Compiled in 231ms (928 modules)
+ ⨯ ./src/app/page.js:6:1
+Module not found: Can't resolve '@/components/About'
+  4 | import PixelGrid from "@/components/PixelGrid";
+  5 | import Hud from "@/components/Hud";
+> 6 | import About from "@/components/About";
+    | ^
+  7 | import { LanguageProvider } from "@/i18n/LanguageProvider";
+  8 |
+  9 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+ ✓ Compiled in 190ms (931 modules)
+ ✓ Compiled in 357ms (931 modules)
+ ✓ Compiled in 285ms (931 modules)
+ ✓ Compiled in 425ms (931 modules)
+ ✓ Compiled in 160ms (931 modules)
+ ✓ Compiled in 231ms (931 modules)
+ ✓ Compiled in 486ms (931 modules)
+ ✓ Compiled in 199ms (917 modules)
+ ✓ Compiled in 140ms (917 modules)
+ ✓ Compiled in 275ms (931 modules)
+ ✓ Compiled in 279ms (917 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\2.pack.gz_' -> 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\2.pack.gz'
+ ⨯ ./src/app/page.js:7:1
+Module not found: Can't resolve '@/components/Projects'
+   5 | import Hud from "@/components/Hud";
+   6 | import About from "@/components/About";
+>  7 | import Projects from "@/components/Projects";
+     | ^
+   8 | import { LanguageProvider } from "@/i18n/LanguageProvider";
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+ ✓ Compiled in 91ms (418 modules)
+ ✓ Compiled in 206ms (934 modules)
+ ✓ Compiled in 217ms (934 modules)
+ ✓ Compiled in 523ms (934 modules)
+ ✓ Compiled in 486ms (934 modules)
+ ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve '@/components/Experience'
+   6 | import About from "@/components/About";
+   7 | import Projects from "@/components/Projects";
+>  8 | import Experience from "@/components/Experience";
+     | ^
+   9 | import { LanguageProvider } from "@/i18n/LanguageProvider";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+ ✓ Compiled in 416ms (937 modules)
+ ✓ Compiled in 403ms (923 modules)
+ ✓ Compiled in 139ms (420 modules)
+ ✓ Compiled in 152ms (420 modules)
+ ✓ Compiled in 346ms (940 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\0.pack.gz_' -> 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\0.pack.gz'

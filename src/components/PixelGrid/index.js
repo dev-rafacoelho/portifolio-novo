@@ -94,10 +94,11 @@ export default function PixelGrid({ cell = 18, radius = 160 }) {
 
     const isDark = () => document.documentElement.classList.contains("dark");
 
+    const parent = canvas.parentElement;
     const resize = () => {
       const dpr = Math.min(window.devicePixelRatio || 1, 2);
-      width = window.innerWidth;
-      height = window.innerHeight;
+      width = parent.clientWidth;
+      height = parent.clientHeight;
       canvas.width = width * dpr;
       canvas.height = height * dpr;
       canvas.style.width = `${width}px`;
@@ -166,8 +167,9 @@ export default function PixelGrid({ cell = 18, radius = 160 }) {
     };
 
     const onMove = (e) => {
-      mouse.tx = e.clientX;
-      mouse.ty = e.clientY;
+      const r = canvas.getBoundingClientRect();
+      mouse.tx = e.clientX - r.left;
+      mouse.ty = e.clientY - r.top;
       if (reduced) {
         mouse.x = mouse.tx;
         mouse.y = mouse.ty;
@@ -181,9 +183,10 @@ export default function PixelGrid({ cell = 18, radius = 160 }) {
 
     resize();
     draw();
-    window.addEventListener("resize", resize);
-    window.addEventListener("mousemove", onMove);
-    window.addEventListener("mouseout", onLeave);
+    const ro = new ResizeObserver(resize);
+    ro.observe(parent);
+    parent.addEventListener("mousemove", onMove);
+    parent.addEventListener("mouseleave", onLeave);
     const observer = new MutationObserver(() => reduced && draw());
     observer.observe(document.documentElement, {
       attributes: true,
@@ -192,9 +195,9 @@ export default function PixelGrid({ cell = 18, radius = 160 }) {
 
     return () => {
       cancelAnimationFrame(raf);
-      window.removeEventListener("resize", resize);
-      window.removeEventListener("mousemove", onMove);
-      window.removeEventListener("mouseout", onLeave);
+      ro.disconnect();
+      parent.removeEventListener("mousemove", onMove);
+      parent.removeEventListener("mouseleave", onLeave);
       observer.disconnect();
     };
   }, [cell, radius]);
@@ -203,7 +206,7 @@ export default function PixelGrid({ cell = 18, radius = 160 }) {
     <canvas
       ref={canvasRef}
       aria-hidden="true"
-      className="pointer-events-none fixed inset-0 z-0"
+      className="pointer-events-none absolute inset-0 z-0"
     />
   );
 }

@@ -46,7 +46,7 @@ export default function NameCenter() {
   const item = useTypewriter(t.words);
 
   return (
-    <section className="relative z-10 flex h-[82vh] w-full flex-col items-center justify-center px-4 text-center">
+    <section className="relative z-10 flex h-[calc(100vh-12vh)] w-full flex-col items-center justify-center px-4 text-center">
       <p className="mb-6 font-press-start text-[10px] uppercase tracking-[0.4em] text-gray-500 dark:text-gray-400 sm:text-xs">
         {t.ready}
       </p>

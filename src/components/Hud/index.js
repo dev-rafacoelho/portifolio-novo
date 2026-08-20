@@ -12,7 +12,7 @@ export default function Hud() {
   const { lang, setLang, t } = useLanguage();
 
   return (
-    <footer className="pointer-events-none fixed inset-x-0 bottom-0 z-20 flex items-end justify-between gap-4 px-[3vw] pb-[3vh] font-press-start text-[9px] sm:text-[10px]">
+    <footer className="pointer-events-none absolute inset-x-0 bottom-0 z-20 flex items-end justify-between gap-4 px-[3vw] pb-[3vh] font-press-start text-[9px] sm:text-[10px]">
       {/* power-ups: stack */}
       <ul className="pointer-events-auto flex flex-wrap gap-2">
         {STACK.map((s) => (
