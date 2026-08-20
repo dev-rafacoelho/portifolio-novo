@@ -1,0 +1,264 @@
+
+> portifolio@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:3000
+   - Network:      http://26.222.177.236:3000
+
+ ✓ Starting...
+ ✓ Ready in 9.2s
+ ○ Compiling / ...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+ ✓ Compiled / in 12.5s (664 modules)
+ GET / 200 in 13120ms
+ ✓ Compiled in 137ms (246 modules)
+ GET / 200 in 94ms
+ GET / 200 in 51ms
+ ✓ Compiled /favicon.ico in 325ms (408 modules)
+ GET /favicon.ico 200 in 525ms
+ ✓ Compiled in 121ms (246 modules)
+ GET / 200 in 65ms
+ ✓ Compiled in 180ms (637 modules)
+ GET / 200 in 110ms
+ ✓ Compiled in 63ms (246 modules)
+ GET / 200 in 23ms
+ ✓ Compiled in 409ms (676 modules)
+ GET / 200 in 104ms
+ ✓ Compiled in 313ms (676 modules)
+ GET / 200 in 71ms
+ ✓ Compiled in 581ms (676 modules)
+ GET / 200 in 144ms
+ ✓ Compiled in 403ms (676 modules)
+ GET / 200 in 140ms
+ ✓ Compiled in 333ms (676 modules)
+ GET / 200 in 100ms
+ ✓ Compiled in 765ms (681 modules)
+ GET / 200 in 173ms
+ ✓ Compiled in 228ms (681 modules)
+ GET / 200 in 151ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1757ms (1007 modules)
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\webpack-runtime.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\pages\_document.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\require.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\load-components.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\utils.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\options.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\index.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51776)
+    at Object.<anonymous> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51825) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json',
+  page: '/'
+}
+Error: Cannot find module './586.js'
+Require stack:
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\webpack-runtime.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\pages\_document.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\require.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\load-components.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\utils.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\options.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\index.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51776)
+    at Object.<anonymous> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51825) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json'
+}
+ GET / 500 in 7593ms
+ GET / 500 in 348ms
+ GET / 500 in 6070ms
+ GET / 500 in 348ms
+ ✓ Compiled /favicon.ico in 207ms (620 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\rcoel\\OneDrive\\Documentos\\GitHub\\portifolio-novo\\.next\\routes-manifest.json',
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 404ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ⨯ Error: Cannot find module './586.js'
+Require stack:
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\webpack-runtime.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\favicon.ico\route.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\require.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\load-components.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\utils.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\options.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\index.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51776)
+    at Object.<anonymous> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51825) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\webpack-runtime.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\favicon.ico\route.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\require.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\load-components.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\utils.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\options.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\index.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './586.js'
+Require stack:
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\webpack-runtime.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\favicon.ico\route.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\require.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\load-components.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\utils.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\options.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\index.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51776)
+    at Object.<anonymous> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\page.js:2:51825) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\webpack-runtime.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\app\favicon.ico\route.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\require.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\load-components.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\utils.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\options.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\swc\index.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET / 500 in 331ms
+ GET / 500 in 44ms
+ GET /favicon.ico 200 in 27ms
+ ✓ Compiled in 355ms (1038 modules)
+ ✓ Compiled in 425ms (928 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\9.pack.gz_' -> 'C:\Users\rcoel\OneDrive\Documentos\GitHub\portifolio-novo\.next\cache\webpack\server-development\9.pack.gz'
+ ✓ Compiled in 231ms (928 modules)

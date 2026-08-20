@@ -1,8 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useLanguage } from "@/i18n/LanguageProvider";
 
 export default function ThemeToggle() {
   const [isDark, setIsDark] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     // Verifica se há preferência salva no localStorage
@@ -37,7 +39,7 @@ export default function ThemeToggle() {
     <button
       onClick={toggleTheme}
       className="fixed top-4 right-4 z-50 p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
-      aria-label="Alternar tema"
+      aria-label={t.toggleTheme}
     >
       {isDark ? (
         // Ícone do sol (modo claro)
